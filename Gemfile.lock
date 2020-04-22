@@ -54,7 +54,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.2)
-    capistrano (3.13.0)
+    capistrano (3.11.2)
       airbrussh (>= 1.0.0)
       i18n
       rake (>= 10.0.0)
@@ -215,10 +215,10 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
-  capistrano
-  capistrano-passenger
-  capistrano-rails
-  capistrano-rbenv
+  capistrano (~> 3.11.0)
+  capistrano-passenger (~> 0.2.0)
+  capistrano-rails (~> 1.2)
+  capistrano-rbenv (~> 2.1)
   capybara (>= 2.15, < 4.0)
   chromedriver-helper
   coffee-rails (~> 4.2)

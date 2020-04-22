@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.13.0"
+lock "~> 3.11.2"
 
 set :application, "maplace"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "https://github.com/RenatoRosaFranco/maplace.git"
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
